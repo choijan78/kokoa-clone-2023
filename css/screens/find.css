@@ -11,26 +11,6 @@
   bottom: 35px;
 }
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-}
-
-.find-icons__icon span {
-  margin: 15px 0px;
-}
-
 .recommended-friends {
   margin: 10px 0px;
   padding: 25px 0px;

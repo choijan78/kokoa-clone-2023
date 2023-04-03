@@ -19,3 +19,7 @@
 .chat-time {
   margin: 15px 0px 5px 0px;
 }
+
+.no-top {
+  top: 0px;
+}
