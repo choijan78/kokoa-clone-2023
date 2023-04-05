@@ -11,6 +11,7 @@
   box-sizing: border-box;
   padding: 5px 15px;
   background-color: var(--green);
+  max-width: 431px;
 }
 
 .status-bar__column:first-child {
