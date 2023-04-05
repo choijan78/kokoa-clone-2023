@@ -1,0 +1,22 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.status-bar__column:first-child {
+  background-color: orange;
+  padding-left: 10px;
+}
+
+.status-bar__column-dot {
+  /* display: block; */
+  background-color: blue;
+}
+
+.status-bar__column:last-child {
+  background-color: violet;
+  padding-right: 10px;
+}
