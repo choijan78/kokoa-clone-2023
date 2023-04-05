@@ -5,11 +5,14 @@
   margin-bottom: 10px;
   font-size: 16px;
   z-index: 5;
+  position: fixed;
+  width: 100%;
+  box-sizing: ;
 }
 
 .status-bar__column:first-child {
   /* background-color: orange; */
-  padding-left: 18px;
+  /* padding-left: 18px; */
   display: flex;
 }
 
@@ -40,6 +43,6 @@
 }
 
 .status-bar__column:last-child {
-  background-color: violet;
+  /* background-color: violet; */
   padding-right: 0px;
 }
