@@ -9,13 +9,13 @@
 .welcome-header__title {
   font-size: 23px;
   margin: 24px 0px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .welcome-header__text {
-  margin-top: 1px;
-  margin-bottom: 100px;
+  margin-top: 2px;
+  margin-bottom: 75px;
   text-align: center;
   font-size: 17px;
-  background-color: red;
+  /* background-color: red; */
 }

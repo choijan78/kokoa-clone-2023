@@ -27,6 +27,6 @@ body {
 }
 
 .window__mobile-app {
-  max-width: 431px;
+  width: 431px;
   background-color: #4abc0f;
 }
