@@ -1,4 +1,6 @@
 .status-bar {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
