@@ -9,7 +9,7 @@
   border: none;
   width: 90%;
   padding-bottom: 24px;
-  margin: 10px var(--body-side-margin);
+  margin: 10px var(--body-side-padding));
   background-color: inherit;
   border-bottom: 1px solid var(--grey);
   font-size: 19px;
@@ -18,7 +18,7 @@
 
 #login-form input[type="submit"] {
   padding: 16px;
-  margin: 26px var(--body-side-margin) -15px var(--body-side-margin);
+  margin: 26px var(--body-side-padding) -15px var(--body-side-padding);
   background-color: var(--btn-green);
   border: none;
   font-size: 17px;
@@ -27,7 +27,7 @@
 }
 
 #login-form a {
-  margin: 37px var(--body-side-margin);
+  margin: 37px var(--body-side-padding);
   font-size: 15px;
 }
 

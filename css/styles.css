@@ -27,7 +27,7 @@ body {
 }
 
 .window__mobile-app {
-  width: 431px;
+  width: var(--app-width);
   background-color: #4abc0f;
   border-radius: 20px;
 }

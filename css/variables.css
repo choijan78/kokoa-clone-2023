@@ -6,5 +6,6 @@
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --grey-font: rgb(18, 18, 18);
   --grey: rgba(0, 0, 0, 0.5);
-  --body-side-margin: 15px;
+  --body-side-padding: 15px;
+  --app-width: 440px;
 }
