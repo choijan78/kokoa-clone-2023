@@ -1,0 +1,17 @@
+.chat-individual {
+  margin-top: 91px;
+}
+
+.chat-individual a {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.user-component__subtitle {
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.two-line {
+  font-size: 10px;
+}

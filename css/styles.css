@@ -28,6 +28,6 @@ body {
 
 .window__mobile-app {
   width: var(--app-width);
-  background-color: #4abc0f;
+  background-color: var(--bg-color);
   border-radius: 20px;
 }

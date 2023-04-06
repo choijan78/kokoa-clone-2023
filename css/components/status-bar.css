@@ -12,8 +12,9 @@
   top: 0;
   box-sizing: border-box;
   padding: 8px var(--body-side-padding);
-  background-color: var(--green);
+  background-color: var(--bg-color);
   max-width: var(--app-width);
+  color: var(--font-color);
 }
 
 .status-bar__column:first-child {

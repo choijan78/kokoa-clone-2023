@@ -1,11 +1,13 @@
 :root {
   --yellow: #fae100;
-  --green: #4abc0f;
-  --btn-green: rgb(143, 214, 37);
+  --bg-color: #7a24ea;
+  --green-origina: #4abc0f;
+  --nav-color: #0ac4e9;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --grey-font: rgb(18, 18, 18);
   --grey: rgba(0, 0, 0, 0.5);
   --body-side-padding: 15px;
   --app-width: 440px;
+  --font-color: #dae3b8;
 }

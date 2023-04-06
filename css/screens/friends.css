@@ -1,14 +1,75 @@
-.user-component img {
-  width: 20px;
-  height: 20px;
-}
-
-.main-screen {
-  margin-top: 74px;
-  background-color: red;
-}
-
 #friends-display-link {
-  /* display: block; */
-  margin-top: 70px;
+  display: block;
+  margin-top: 91px;
+  padding: 12px var(--body-side-padding);
+  text-align: center;
+  background-color: var(--nav-color);
+}
+
+#friends-display-link i {
+  color: var(--btn-green);
+}
+.main-screen {
+  margin-top: 0px;
+  /* background-color: red; */
+  padding: 10px var(--body-side-padding);
+  color: var(--font-color);
+}
+
+.user-component {
+  display: flex;
+  /* background-color: blueviolet; */
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 13px;
+}
+
+.my-profile {
+  padding-top: 0px;
+}
+
+.user-component__column {
+  display: flex;
+  /* background-color: brown; */
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 62px;
+  height: 62px;
+  border-radius: 35%;
+}
+
+.user-component__avatar--sm {
+  width: 52px;
+  height: 52px;
+}
+.user-component__avatar--xl {
+  width: 72px;
+  height: 72px;
+}
+
+.user-component__text {
+  margin-left: 14px;
+  font-size: 20px;
+}
+
+.user-component__title {
+  font-weight: 600;
+}
+
+.user-component__title--not-bold {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.friends-screen_channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: orange; */
+  margin-top: 15px;
+  padding: 10px 0px;
+  font-size: 13px;
+  border-top: var(--main-border);
 }

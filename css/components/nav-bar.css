@@ -2,16 +2,16 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: var(--btn-green);
+  background-color: var(--nav-color);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   z-index: 1;
-  max-width: 431px;
+  max-width: var(--app-width);
 }
 .nav__list {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 15px;
-  margin: 10px var(--body-side-margin);
+  margin: 10px var(--body-side-padding);
 }
