@@ -30,4 +30,14 @@ body {
   width: var(--app-width);
   background-color: var(--bg-color);
   border-radius: 20px;
+  height: max-content;
+  padding-bottom: 50px;
+}
+
+.main-screen {
+  margin-top: 0px;
+  background-color: red;
+  padding: 10px var(--body-side-padding);
+  color: var(--font-color);
+  /* border-radius: 20px; */
 }

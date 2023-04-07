@@ -6,23 +6,3 @@
   display: block;
   padding-bottom: 5px;
 }
-
-.user-component__subtitle {
-  font-size: 12px;
-  margin-top: 7px;
-}
-
-.two-line {
-  font-size: 10px;
-}
-
-.reply {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background-color: var(--nav-color);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  z-index: 1;
-  max-width: var(--app-width);
-}

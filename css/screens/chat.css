@@ -85,3 +85,14 @@
 .second-row {
   display: none;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: var(--nav-color);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 1;
+  max-width: var(--app-width);
+}
