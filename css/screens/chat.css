@@ -1,16 +1,17 @@
 #chat-screen {
+  background-color: blanchedalmond;
   height: inherit;
 }
 
 .main-chat {
   margin-top: 81px;
-  padding: 12px var(--body-side-padding);
+  padding: 12px 0px;
   color: var(--grey-font);
   /* background-color: olive; */
 }
 
 .chat__timestamp {
-  background-color: blueviolet;
+  background-color: rgb(232, 242, 146);
   text-align: center;
   border: var(--main-border);
   width: 180px;

@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 #login-form input[type="text"],
@@ -16,10 +18,14 @@
   /* color: var(--grey-font); */
 }
 
+#login-form input[type="text"]{
+  margin-bottom: 15px;
+}
+
 #login-form input[type="submit"] {
   padding: 16px;
   margin: 26px var(--body-side-padding) -15px var(--body-side-padding);
-  background-color: var(--btn-green);
+  background-color: var(--btn-color);
   border: none;
   font-size: 17px;
   width: 90%;
