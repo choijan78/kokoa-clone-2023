@@ -1,9 +1,10 @@
 .icon-row {
   margin-top: 81px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
-  justify-content: space-around;
-  padding: 13px 0px;
+  justify-content: space-between;
+  padding: 25px 0px 2px 0px;
+  border-bottom: var(--main-border);
 }
 
 .icon-row__icon {
@@ -14,15 +15,41 @@
 }
 
 .icon-row__icon i {
-  background-color: black;
-  font-size: 30px;
+  /* background-color: black; */
+  font-size: 32px;
+}
+
+.icon-row__icon div {
+  background-color: yellow;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 .icon-row__icon span {
-  /* padding: 10px 0px; */
-  background-color: yellow;
+  /* background-color: orange; */
   font-size: 16px;
-  margin-top: 11px;
   height: 40px;
   text-align: center;
+  /* width: 90px; */
+}
+
+.icon-row__icon:first-child span {
+  padding-top: 25px;
+  padding-bottom: 3px;
+}
+
+.icon-row__icon:nth-child(2) span {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.icon-row__icon:nth-child(3) span {
+  padding-top: 25px;
+  padding-bottom: 3px;
+}
+
+.icon-row__icon:last-child span {
+  padding-top: 25px;
+  padding-bottom: 3px;
 }
