@@ -37,8 +37,7 @@ body {
 
 .main-screen {
   margin-top: 0px;
-
-  background-color: red;
+  /* background-color: red; */
   padding: 10px var(--body-side-padding);
   color: var(--font-color);
   border-radius: 20px;

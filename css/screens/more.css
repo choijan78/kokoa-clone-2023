@@ -1,1 +1,59 @@
+.more-screen {
+  /* background-color: blue; */
+  margin-top: 81px;
+  margin-bottom: 24px;
+}
 
+.more-icon {
+  margin-top: -23px;
+}
+
+.more-icon .icon-row__icon {
+  padding-top: 23px;
+  /* background-color: yellow; */
+  padding-bottom: -10px;
+  border: 0;
+}
+.more-icon .icon-row__icon span {
+  /* background-color: green; */
+  padding-top: 13px;
+  padding-bottom: 0px;
+  height: 30px;
+}
+
+.more-icon .icon-row__icon:nth-child(2) span {
+  /* background-color: green; */
+  padding-top: 13px;
+  padding-bottom: 0px;
+}
+
+.more-icon .icon-row__icon i {
+  font-size: 27px;
+}
+.more-icon .icon-row__icon span {
+  font-size: 14px;
+}
+
+.more-suggestions {
+  /* background-color: orange; */
+  border-top: var(--main-border);
+}
+.more-suggestions__title {
+  padding: 22px 0px;
+  /* background-color: lightblue; */
+}
+.more-suggestions__icons {
+  /* background-color: lightgreen; */
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions__icon-image {
+  font-size: 30px;
+  padding: 12px 0px;
+}

@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
   padding: 25px 0px 2px 0px;
+}
+
+.icon-row__border {
   border-bottom: var(--main-border);
 }
 
