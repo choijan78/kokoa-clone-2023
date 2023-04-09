@@ -102,3 +102,10 @@
   padding: 5px;
   border-radius: 13px;
 }
+
+.open-post__members .divider {
+  width: 1px;
+  height: 11px;
+  background-color: red;
+  margin-right: 5px;
+}
