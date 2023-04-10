@@ -16,6 +16,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/chat.css";
+@import "screens/setting.css";
 
 body {
   color: #2e363e;
@@ -31,7 +32,7 @@ body {
   background-color: var(--bg-color);
   border-radius: 20px;
   min-height: 100vh;
-  max-height: max-content;
+  height: max-content;
   padding-bottom: 0px;
 }
 

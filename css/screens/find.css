@@ -52,7 +52,7 @@
   padding: 30px 0px 5px 0px;
 }
 .open-post__hashtags {
-  font-size: 16px;
+  font-size: 14px;
   padding: 2px 0px;
 }
 
@@ -105,7 +105,7 @@
 
 .open-post__members .divider {
   width: 1px;
-  height: 11px;
-  background-color: red;
+  height: 15px;
+  background-color: wheat;
   margin-right: 5px;
 }

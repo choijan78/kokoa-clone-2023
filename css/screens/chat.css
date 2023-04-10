@@ -1,6 +1,8 @@
 #chat-screen {
   background-color: blanchedalmond;
-  height: inherit;
+  height: max-content;
+  /* margin-bottom: 20px; */
+  padding-bottom: 50px;
 }
 
 .main-chat {

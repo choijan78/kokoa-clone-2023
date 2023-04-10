@@ -6,7 +6,7 @@
   background-color: var(--nav-color);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  z-index: 1;
+  z-index: 2;
   max-width: var(--app-width);
 }
 .nav__list {
@@ -15,4 +15,13 @@
   align-items: center;
   font-size: 15px;
   margin: 10px var(--body-side-padding);
+}
+.nav__link {
+  position: relative;
+}
+.nav__link .badge {
+  /* display: none; */
+  position: absolute;
+  top: -15px;
+  right: -10px;
 }

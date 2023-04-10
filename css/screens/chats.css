@@ -6,3 +6,18 @@
   display: block;
   padding-bottom: 5px;
 }
+
+.chat-span {
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  align-items: flex-end;
+}
+
+.chat-span .chat-time {
+  font-size: 10px;
+}
+
+.chat-span .badge {
+  margin-top: 5px;
+}

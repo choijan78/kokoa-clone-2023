@@ -1,0 +1,51 @@
+.setting-screen {
+  padding-top: 81px;
+  /* background-color: orange; */
+  padding-bottom: 30px;
+ 
+
+}
+
+.settings-list {
+  /* margin-top: 20px; */
+  padding-top: 20px;
+  border-top: var(--main-border);
+  font-size: 18px;
+  /* background-color: aqua; */
+}
+
+.settings-list:nth-child(2) {
+  /* margin-top: 0px */
+}
+
+.settings__setting {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.settings__setting-column {
+  position: relative;
+}
+
+.settings__setting-column i {
+  padding-right: 10px;
+}
+
+.setting-screen .user-component {
+  /* background-color: orange; */
+  margin-bottom: 20px;
+}
+
+.setting__dot-new {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 800;
+  width: 15px;
+  height: 15px;
+  top:2px;
+  right: -24px;

@@ -1,0 +1,24 @@
+.setting-dot {
+  position: absolute;
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.badge {
+  display: block;
+  background-color: red;
+  min-width: 20px;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  line-height: 18px;
+}
+
+.none {
+  background-color: var(--bg-color);
+}

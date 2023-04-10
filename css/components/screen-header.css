@@ -34,6 +34,7 @@
   box-sizing: border-box;
   font-size: 20px;
   max-width: var(--app-width);
+  z-index: 2;
 }
 
 .screen-header__title {
@@ -42,5 +43,15 @@
 }
 
 .screen-header__icons span {
-  padding: 0px 8px;
+  margin: 0px 8px;
+}
+
+.screen-header__icons {
+  position: relative;
+  /* background-color: brown; */
+}
+
+.screen-header__icons .setting-dot {
+  right: -7px;
+  top: -7px;
 }
