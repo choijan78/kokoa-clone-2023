@@ -35,7 +35,7 @@
 }
 
 .more__wallet {
-  background-color: yellow;
+  background-color: olive;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -43,7 +43,7 @@
 .more__wallet-title {
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  /* background-color: red; */
   padding: 20px 35px;
 }
 
@@ -61,7 +61,7 @@
 .more__notice {
   margin: 0px 25px;
   padding: 10px;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   border-radius: 4px;
   position: relative;
   height: 18px;
@@ -72,6 +72,22 @@
   display: flex;
   justify-content: space-between;
   width: 95%;
+  animation: text-sign 15s infinite;
+}
+
+@keyframes text-sign {
+  0% {
+    color: white;
+  }
+  10% {
+    color: white;
+  }
+  50% {
+    color: olive;
+  }
+  100% {
+    color: white;
+  }
 }
 
 .more__notice-id {
@@ -81,19 +97,35 @@
   width: 95%;
   z-index: 0;
   /* display: none; */
+  animation: text-sign-reverse 15s infinite;
+}
+
+@keyframes text-sign-reverse {
+  0% {
+    color: olive;
+  }
+  10% {
+    color: olive;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: olive;
+  }
 }
 
 .more__notice-vaccine-column:first-child {
-  background-color: orange;
+  /* background-color: orange; */
   /* width: 80%; */
 }
 
 .more__notice-vaccine-column:nth-child(2) {
-  background-color: green;
+  /* background-color: green; */
 }
 
 .more__pay {
-  background-color: sandybrown;
+  /* background-color: sandybrown; */
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -109,7 +141,7 @@
 .more__menu {
   display: flex;
   justify-content: space-between;
-  background-color: olivedrab;
+  /* background-color: olivedrab; */
   padding: 10px 35px;
   font-size: 14px;
 }

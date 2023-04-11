@@ -94,3 +94,12 @@
   top: 0px;
   left: 16px;
 }
+
+.user-component__column img {
+  border: none;
+  transition: border ease-in-out;
+}
+
+.user-component__column img:hover {
+  border: 2px solid blue;
+}

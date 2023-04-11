@@ -25,3 +25,20 @@
   top: -15px;
   right: -10px;
 }
+
+.nav__notification {
+  /* background-color: yellow; */
+  animation: nav_alarm 1050ms ease-in-out infinite;
+}
+
+@keyframes nav_alarm {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: none;
+  }
+}
