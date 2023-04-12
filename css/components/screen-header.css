@@ -55,3 +55,11 @@
   right: -7px;
   top: -7px;
 }
+.screen-header__icons .fa-cog {
+  transform: rotateZ(0deg);
+  transition: transform 1s ease-in-out;
+}
+
+.screen-header__icons .fa-cog:hover {
+  transform: rotateZ(360deg);
+}

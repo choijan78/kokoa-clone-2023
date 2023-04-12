@@ -11,6 +11,7 @@
   box-sizing: border-box;
   font-size: 20px;
   max-width: var(--app-width);
+  z-index: 2;
 }
 .alt-header__column {
   /* background-color: yellow; */

@@ -109,3 +109,24 @@
   background-color: wheat;
   margin-right: 5px;
 }
+
+.fa-heart {
+  animation: beating 2s ease-in-out infinite;
+}
+
+@keyframes beating {
+  0% {
+    color: wheat;
+    transform: scale(1);
+  }
+  50% {
+    color: red;
+    transform: scale(1.2);
+  }
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+  }
+}

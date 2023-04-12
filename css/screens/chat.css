@@ -27,6 +27,57 @@
   /* background-color: aquamarine; */
   padding: 10px 0px;
   align-items: flex-end;
+  animation: showing 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+.main-chat .message-row:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.main-chat .message-row:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.main-chat .message-row:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.main-chat .message-row:nth-child(5) {
+  animation-delay: 1.6s;
+}
+
+.main-chat .message-row:nth-child(6) {
+  animation-delay: 2s;
+}
+
+.main-chat .message-row:nth-child(7) {
+  animation-delay: 2.4s;
+}
+.main-chat .message-row:nth-child(8) {
+  animation-delay: 2.8s;
+}
+.main-chat .message-row:nth-child(9) {
+  animation-delay: 3.2s;
+}
+.main-chat .message-row:nth-child(10) {
+  animation-delay: 3.6s;
+}
+.main-chat .message-row:nth-child(11) {
+  animation-delay: 4s;
+}
+.main-chat .message-row:nth-child(12) {
+  animation-delay: 4.4s;
+}
+.main-chat .message-row:nth-child(13) {
+  animation-delay: 4.8s;
+}
+@keyframes showing {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 .message-row img {
@@ -90,6 +141,7 @@
 
 .reply {
   position: fixed;
+  display: flex;
   bottom: 0px;
   width: 100%;
   background-color: var(--nav-color);
@@ -97,4 +149,34 @@
   border-bottom-right-radius: 20px;
   z-index: 1;
   max-width: var(--app-width);
+  height: 55px;
+}
+
+.reply__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.reply__column .fa-plus-square,
+.reply__column .fa-smile-wink {
+  margin: 10px;
+}
+
+.reply__column input {
+  border: none;
+  height: 25px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.reply__column button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
 }

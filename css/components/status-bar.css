@@ -40,7 +40,20 @@
   top: 0px;
   right: -19px;
   padding: 0px;
+  animation: blink 2s ease-in-out infinite;
 }
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .status-bar__column-arrow {
   position: absolute;
   top: 4px;

@@ -35,7 +35,7 @@
 }
 
 .more__wallet {
-  background-color: olive;
+  background-color: palevioletred;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -72,21 +72,18 @@
   display: flex;
   justify-content: space-between;
   width: 95%;
-  animation: text-sign 15s infinite;
+  animation: text-sign 10s steps(1, end) infinite;
 }
 
 @keyframes text-sign {
   0% {
-    color: white;
-  }
-  10% {
-    color: white;
+    opacity: 0;
   }
   50% {
-    color: olive;
+    opacity: 1;
   }
   100% {
-    color: white;
+    opacity: 0;
   }
 }
 
@@ -97,21 +94,18 @@
   width: 95%;
   z-index: 0;
   /* display: none; */
-  animation: text-sign-reverse 15s infinite;
+  animation: text-sign-reverse 10s steps(1, end) infinite;
 }
 
 @keyframes text-sign-reverse {
   0% {
-    color: olive;
-  }
-  10% {
-    color: olive;
+    opacity: 1;
   }
   50% {
-    color: white;
+    opacity: 0;
   }
   100% {
-    color: olive;
+    opacity: 1;
   }
 }
 
@@ -148,12 +142,13 @@
 
 .more__menu-column {
   display: flex;
+  margin-bottom: 5px;
 }
 
 .more__menu-column .divider {
   display: block;
   width: 1px;
   height: 14px;
-  background-color: red;
+  background-color: purple;
   margin: 0px 10px;
 }
